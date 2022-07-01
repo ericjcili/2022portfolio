@@ -8,6 +8,11 @@
    font-family: "Bebas Neue", sans-serif;
    -webkit-font-smoothing: antialiased;
   }
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+}
  
  h1,
  h2,
@@ -405,6 +410,10 @@
     }
  }
  @media screen and (max-width: 420px) {
+    html, body {
+        width: 100%;
+        max-width: 100%;
+    }
     .col-md-7 h1 {
         margin-top: -50px;
     }
