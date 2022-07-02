@@ -293,6 +293,10 @@ html, body {
     transition: all 0.2s ease;
     border-radius: 10px;
  }
+ .poform button {
+    text-align: center;
+ }
+
  .poform button:hover {
     background: rgba(15, 0, 75, 0.613);
     color: rgb(255, 191, 191);
@@ -461,7 +465,7 @@ html, body {
         margin-bottom: -90px;
     }
     .about-img img {
-        width: 70%;
+        width: 80%;
     }
  }
  .page-title .block {
@@ -549,7 +553,7 @@ html, body {
      transform: none;
    }
    .about-img img {
-    width: 70%;
+    width: 80%;
 }
  }
  
@@ -2101,7 +2105,7 @@ html, body {
    padding-bottom: 20px;
  }
 .about-img {
-     width: 70%;
+     width: 80%;
    overflow: hidden;
  }
  .about .about-img:hover img {
