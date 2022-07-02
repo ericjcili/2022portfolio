@@ -295,6 +295,7 @@ html, body {
     border-radius: 10px;
  }
  .contact-form a {
+    vertical-align: middle;
     text-align: center;
    background: rgb(15, 0, 75);
    color: rgb(255, 86, 86);
