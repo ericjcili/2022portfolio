@@ -489,12 +489,12 @@ html, body {
     .contact-form a {
         margin-bottom: 100%;
     }
-    .h1-header {
+    .h1ty-header {
         font-size: 30px;
         font-family: 'Alfa Slab One';
      }
-     .p-info {
-        font-size: 10px;
+     .pty-info {
+        font-size: 15px;
         font-family: 'Alfa Slab One';
         margin-bottom: 50px;
      }
@@ -2054,6 +2054,19 @@ html, body {
      padding: 20px;
      font-family: 'Signika Negative', sans-serif;
      color: black;
+ }
+ .h1ty-header {
+    font-size: 30px;
+    font-family: 'Alfa Slab One';
+ }
+ .pty-info {
+    font-size: 22px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-bottom: 50px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
  }
  .p-info2 {
     font-family: 'Signika Negative', sans-serif;
