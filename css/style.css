@@ -7,6 +7,8 @@
    line-height: 1.65;
    font-family: "Bebas Neue", sans-serif;
    -webkit-font-smoothing: antialiased;
+   width: 100%;
+    max-width: 100%;
   }
 
 html, body {
@@ -271,17 +273,21 @@ html, body {
      margin-bottom: 15px;
  }
 
+ .contact-form h1 {
+     margin-bottom: -20px;
+ }
+
  .poform button {
      text-align: center;
     background: rgb(15, 0, 75);
     color: rgb(255, 86, 86);
+    border-radius: 100px;
     display: inline-block;
     font-size: 30px;
     letter-spacing: 1px;
     height: 50px;
     width: 130px;
-    text-transform: uppercase;
-    border-radius: 100;
+    border-radius: var(--num-cols);
     transition: all 0.2s ease;
     border-radius: 10px;
  }
@@ -417,8 +423,6 @@ html, body {
    font-weight: 600;
    margin-bottom: 30px;
  }
-
-
  
  .page-title {
    padding: 100px 0;
@@ -1530,9 +1534,6 @@ html, body {
    padding-top: 35px;
    padding-bottom: 58px;
  }
- .contact-box .block img {
-   width: 100%;
- }
  .contact-box .block h2 {
    font-weight: 300;
    color: #000;
@@ -2027,9 +2028,6 @@ html, body {
     padding-bottom: 35px;
     background-color: rgb(252, 252, 252);
 }
-.about-section3 img {
-    padding: 15px;
-}
  .about-section img {
      padding: 15px;
  }
@@ -2051,9 +2049,10 @@ html, body {
  }
  .p-info {
      padding: 20px;
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Signika Negative', sans-serif;
      color: black;
  }
+
  
  .clients-logo-section {
    padding-top: 30px;
