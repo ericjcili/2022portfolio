@@ -293,11 +293,29 @@ html, body {
     transition: all 0.2s ease;
     border-radius: 10px;
  }
+ .contact-form a {
+    text-align: center;
+   background: rgb(15, 0, 75);
+   color: rgb(255, 86, 86);
+   border-radius: 100px;
+   display: inline-block;
+   font-size: 30px;
+   letter-spacing: 1px;
+   height: 55px;
+   width: 200px;
+   border-radius: var(--num-cols);
+   transition: all 0.2s ease;
+   border-radius: 10px;
+}
  .poform button {
     text-align: center;
  }
 
  .poform button:hover {
+    background: rgba(15, 0, 75, 0.613);
+    color: rgb(255, 191, 191);
+}
+.contact-form a:hover {
     background: rgba(15, 0, 75, 0.613);
     color: rgb(255, 191, 191);
 }
@@ -1168,45 +1186,7 @@ html, body {
    font-size: 12px;
    margin-top: 30px;
  }
-
- .showroom {
-   background-color: #e2cdb2;
- }
  
- .service {
-   text-align: center;
-   padding: 90px 0;
-   border-radius: 200px;
-   
- }
- .service .service-item {
-   padding-bottom: 30px;
-   flex: auto;
-   justify-content: space-between;
- }
- .service .service-item i {
-   font-size: 60px;
-   color: #655E7A;
- }
- .service .service-item h4 {
-   padding-top: 15px;
-   margin: 0;
-   font-weight: 500;
-   text-transform: uppercase;
- }
- .service .service-item p {
-   padding-top: 10px;
-   margin: 0;
- }
- 
- .dark-service .title {
-   color: #fff;
- }
- .dark-service .service-item {
-   text-align: center;
-   padding: 0 10px;
-   padding-top: 30px;
- }
  @media (max-width: 480px) {
    .dark-service .service-item {
      padding: 0;
