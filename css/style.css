@@ -460,6 +460,9 @@ html, body {
         margin-top: 50px;
         margin-bottom: -90px;
     }
+    .about-img img {
+        width: 93%;
+    }
  }
  .page-title .block {
    text-align: center;
@@ -545,6 +548,9 @@ html, body {
    .dropdown-slide .dropdown-menu {
      transform: none;
    }
+   .about-img img {
+    width: 93%;
+}
  }
  
  .commonSelect {
@@ -2094,7 +2100,8 @@ html, body {
    width: 100%;
    padding-bottom: 20px;
  }
- .about .about-img {
+.about-img {
+     width: 70%;
    overflow: hidden;
  }
  .about .about-img:hover img {
