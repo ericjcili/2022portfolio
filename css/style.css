@@ -161,14 +161,14 @@ html, body {
    margin-right: 5px;
  }
  .btn-main:hover, .btn-small:hover, .btn-transparent:hover {
-   background: #353240;
-   color: #fff;
- }
+    background: rgba(15, 0, 75, 0.613);
+    color: rgb(255, 191, 191);
+}
  
  .btn-solid-border {
    border: 1px solid #fff;
    background: transparent;
-   color: rgb(255, 0, 0);
+   color: rgba(255, 86, 86, 0.657);
  }
  .btn-solid-border:hover {
    border: 1px solid #655E7A;
@@ -258,7 +258,38 @@ html, body {
    width: 100%;
    z-index: 999999999;
  }
- 
+
+ .contact-form {
+    background-color: rgb(252, 252, 252);
+}
+
+ .poform input {
+     align-items: center;
+     text-align: center;
+     height: 30px;
+     width: 500px;
+     margin-bottom: 15px;
+ }
+
+ .poform button {
+     text-align: center;
+    background: rgb(15, 0, 75);
+    color: rgb(255, 86, 86);
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 130px;
+    text-transform: uppercase;
+    border-radius: 100;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+ }
+ .poform button:hover {
+    background: rgba(15, 0, 75, 0.613);
+    color: rgb(255, 191, 191);
+}
+
  .bg-shadow {
    background-color: #fff;
    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.08);
@@ -1438,8 +1469,9 @@ html, body {
    color: #555;
  }
  .contact-form {
+    text-align: center;
    padding-top: 70px;
-   padding-bottom: 35px;
+   padding-bottom: 30px;
  }
  .contact-form .block .form-group {
    padding-bottom: 15px;
@@ -1997,17 +2029,16 @@ html, body {
  .about-section {
      padding-top: 35px;
      padding-bottom: 35px;
-     background: rgb(255, 157, 157);
+     background-color: rgb(252, 252, 252);
+     text-align: center;
+     padding-left: 30px;
+     padding-right: 30px;
  }
- .about-section2 {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    background: rgb(190, 216, 255);
-}
+
 .about-section3 {
     padding-top: 35px;
     padding-bottom: 35px;
-    background: rgb(225, 225, 225);
+    background-color: rgb(252, 252, 252);
 }
 .about-section3 img {
     padding: 15px;
@@ -2026,7 +2057,10 @@ html, body {
 
  .h1-header {
     padding: 20px;
+    border-color: red;
     font-family: 'Alfa Slab One';
+    border-bottom-width: 50px;
+
  }
  .p-info {
      padding: 20px;
