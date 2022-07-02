@@ -2026,7 +2026,7 @@ html, body {
 .about-section3 {
     padding-top: 35px;
     padding-bottom: 35px;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(83, 124, 168);
 }
  .about-section img {
      padding: 15px;
@@ -2052,6 +2052,18 @@ html, body {
      font-family: 'Signika Negative', sans-serif;
      color: black;
  }
+ .p-info2 {
+    font-family: 'Signika Negative', sans-serif;
+    color: black;
+}
+.p-star {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(255, 191, 191);
+}
+.why-line {
+    display: inline;
+}
+
 
  
  .clients-logo-section {
