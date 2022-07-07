@@ -39,6 +39,14 @@ $(document).ready(function () {
         })
     })
 
+	$(function(){
+        $(".col-md-2 a").on('click', function(){
+            $("html, body").animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+        })
+    })
+
 	// scroll-to-top
 	if ($('#scroll-to-top').length) {
 		$('#scroll-to-top').on('click', function () {
