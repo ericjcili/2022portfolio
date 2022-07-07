@@ -931,7 +931,7 @@ html, body {
  .footer2 {
   display: flex;
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 7px;
   padding-bottom: 50px;
   margin-top: 70px;
   background-color: rgb(69, 69, 69);
