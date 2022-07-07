@@ -820,7 +820,6 @@ html, body {
    }
   .footer1 {
     display: flex;
-    margin-left: -41px;
     padding-top: 30px;
     background: #212529;
    }
@@ -917,7 +916,9 @@ html, body {
  .footer1 {
    display: flex;
    padding-top: 30px;
-   padding-left: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+
    padding-bottom: 50px;
    background: #041E42;
  }
