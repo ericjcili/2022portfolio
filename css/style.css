@@ -528,6 +528,9 @@ border-radius: 100px;
     .contact-form a {
         margin-bottom: 100%;
     }
+    .contact-form2 a {
+      margin-bottom: 40px;
+  }
     .h1ty-header {
         font-size: 30px;
         font-family: 'Alfa Slab One';
@@ -1502,6 +1505,11 @@ border-radius: 100px;
    padding-top: 70px;
    padding-bottom: 30px;
  }
+ .contact-form2 {
+  text-align: center;
+ padding-top: 20px;
+ padding-bottom: 30px;
+}
  .contact-form .block .form-group {
    padding-bottom: 15px;
    margin: 0px;
